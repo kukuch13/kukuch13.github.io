@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>My Portofolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="js/jquery.js"></script>
+	<link rel="stylesheet" href="popup/magnific-popup.css">
+	<script src="popup/jquery.magnific-popup.js"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<audio src="audio/coldplay.mp3" autoplay="autoplay" hidden="hidden" loop></audio>
+	<div id="banner">
+		<header id="logo">
+			<img src="img/kukuch.jpg" alt="">
+			<h1>Kukuch Aktam Khairullah</h1>
+			<span id="jobdesc">
+				An laboran hardware prodikom
+			</span>
+		</header>
+		<div id="overlay"></div>
+	</div>
+
+	<section>
+		<span>What I do</span>
+		<div class="section">
+			<div class="content">
+				<div class="box">
+					<img src="img/lab1.jpg" alt="">
+					<h3>Step 1: Keep.</h3>
+					<p>Keep The Laboratory Prodikom with wholehearted.</p>
+				</div>
+				
+				<div class="box">
+					<img src="img/lab2.jpg" alt="">
+					<h3>Step 2: Moving.</h3>
+					<p>We need to move one step beyond that now.</p>
+				</div>
+				
+				<div class="box">
+					<img src="img/lab3.jpg" alt="">
+					<h3>Step 3: Forward.</h3>
+					<p>These are all really good ideas that will move us forward.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div class="quote">
+			<div>
+				<div class="box box1">
+						<h2>Biodata</h2>
+						<p>"Jutaan orang bahkan tidak menyadari bahwa mereka bisa menghasilkan 1000 USD sehari 
+							tanpa meninggalkan rumah. Dan Anda adalah salah satu dari mereka."
+							Saya Kukuh Setiawan</p>
+						
+				</div>
+				<div class="bg"></div>
+			</div>
+			<div>
+				<div class="box box2">
+						<h2>Hobi</h2>
+						<ul>
+							<li>NgePYThon</li>
+							<li>Futsal</li>
+							<li>Musician</li>
+						</ul>
+				</div>
+				<div class="bg"></div>
+			</div>
+			<div>
+				<div class="box box3">
+						<div class="grid-item">
+								<h2>Riwayat Pendidikan</h2>
+								<table >
+									<tr>
+										<th>No</th>
+										<th>Pendidikan</th>
+										<th>Tahun</th>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>SD N 1 Kesuben</td>
+										<td>2009</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>SMP N 1 Lebaksiu</td>
+										<td>2012</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>SMK N 1 Adiwerna</td>
+										<td>2015</td>
+									</tr>
+								</table>
+							</div>
+				</div>
+				<div class="bg"></div>
+			</div>
+		</div>
+	</section>
+	<div class="gallery">
+
+		<div class="box"><a href="images/c.jpg" title="Gambar 3"><img src="images/c.jpg" alt=""></a></div>
+		<div class="box"><a href="images/d.jpg" title="Gambar 4"><img src="images/d.jpg" alt=""></a></div>
+		<div class="box"><a href="images/e.jpg" title="Gambar 5"><img src="images/e.jpg" alt=""></a></div>
+		<audio id="soundBeep" preload="auto">
+			<source src="beep.mp3">
+			</source>
+			<source src="beep.ogg">
+			</source>
+		</audio>
+	</div>
+
+
+	<aside class="testimonial">
+		<span>Testimonial from <strong>'Kukuch</strong></span>
+		<h3>If you want to change different, start from your self</h3>
+	</aside>
+
+	<footer>
+		<div class="content">
+			<div class="box">&copy; <a href="#">@Kukuch13</a> | All Right Reserved</div>
+			<div class="box"><strong>Find me on: </strong><a href="https://twitter.com/Kukuch13">Twitter</a> / <a
+					href="https://www.facebook.com/kukuch.f.mueller">Facebook</a> / <a
+					href="https://www.instagram.com/kukuch13/">Instagram</a><br><br><strong>Phone:</strong>
+				+6282196317285; <strong>Email:</strong> dwiekukuhs@gmail.com</div>
+		</div>
+	</footer>
+
+	<script src="js/scripts.js"></script>
+	<script>
+		var soundBeep = $("#soundBeep")[0];
+		$("div a").hover(function () {
+			soundBeep.play();
+		}, function () {
+			soundBeep.pause();
+		});
+	</script>
+</body>
+
+</html>
